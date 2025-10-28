@@ -62,33 +62,32 @@ _**Steps**_
 _**📁 Project Structure**_
 
     MyLinks/
-    ├── .vs/                              # Visual Studio settings and cache
-    ├── bin/                              # Compiled binaries (auto-generated)
-    ├── obj/                              # Build objects and intermediate files
-    ├── Pages/                            # Core Razor pages (frontend + logic)
-    │   ├── Shared/                       # Layout and reusable Razor components
-    │   │   ├── _Layout.cshtml            # Global page layout (HTML structure)
-    │   │   ├── _Layout.cshtml.css        # Layout-specific CSS
-    │   │   ├── _ValidationScriptsPartial.cshtml  # Validation script partial
-    │   │   ├── _ViewImports.cshtml       # Razor namespace imports
-    │   │   └── _ViewStart.cshtml         # Configures default layout for all pages
-    │   ├── Error.cshtml                  # Error page view
-    │   ├── Error.cshtml.cs               # Backend logic for error page
-    │   ├── Index.cshtml                  # Main homepage (Link aggregator UI)
-    │   ├── Index.cshtml.cs               # C# backend with links + profile data
-    │   ├── Privacy.cshtml                # Privacy policy page
-    │   └── Privacy.cshtml.cs             # Code-behind for Privacy page
+    ├── .vs/
+    ├── bin/
+    ├── obj/
+    ├── Pages/
+    │   ├── Shared/
+    │   │   ├── _Layout.cshtml
+    │   │   ├── _Layout.cshtml.css
+    │   │   ├── _ValidationScriptsPartial.cshtml
+    │   │   ├── _ViewImports.cshtml
+    │   │   └── _ViewStart.cshtml
+    │   ├── Error.cshtml
+    │   ├── Error.cshtml.cs
+    │   ├── Index.cshtml
+    │   ├── Index.cshtml.cs
+    │   ├── Privacy.cshtml
+    │   └── Privacy.cshtml.cs
     ├── Properties/
-    │   └── launchSettings.json           # Environment and profile settings
-    ├── wwwroot/                          # Static assets (CSS, JS, images)
-    │   └── images/                       # Profile image location
-    ├── appsettings.json                  # App configuration (default)
-    ├── appsettings.Development.json      # Dev-specific app configuration
-    ├── Program.cs                        # Application entry point
-    ├── MyLinks.csproj                    # Project definition
-    ├── MyLinks.csproj.user               # User-specific build settings
-    ├── MyLinks.sln                       # Solution file
-    └── README.md                         # Project documentation (this file)
+    │   └── launchSettings.json
+    ├── wwwroot/
+    │   └── images/
+    ├── appsettings.json
+    ├── appsettings.Development.json
+    ├── Program.cs
+    ├── MyLinks.csproj
+    ├── MyLinks.csproj.user
+    ├── MyLinks.sln
 
 
 
